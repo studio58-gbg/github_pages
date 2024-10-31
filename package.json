@@ -2,6 +2,7 @@
   "name": "studio58",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://studio58-gbg.github.io/github_pages",
   "type": "module",
   "scripts": {
     "dev": "vite",
