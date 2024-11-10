@@ -23,6 +23,9 @@ const SiteHeader = () => {
             <li className="hover:text-blue-600">
               <a href="https://portal.nabo.se/kundportal/login">Nabo Portalen</a>
             </li>
+            <li className="hover:text-blue-600">
+              <a href="https://boka.studio58.se">Boka lokal</a>
+            </li>
             <li className={`hover:text-blue-600 ${location.pathname === '/github_pages/dokumentation' ? 'text-blue-800' : ''}`}>
               <Link to="/github_pages/dokumentation">Dokumentation</Link>
             </li>
