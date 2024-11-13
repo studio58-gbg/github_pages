@@ -26,11 +26,11 @@ const SiteHeader = () => {
             <li className="hover:text-blue-600">
               <a href="https://boka.studio58.se">Boka lokal</a>
             </li>
-            <li className={`hover:text-blue-600 ${location.pathname === '/github_pages/dokumentation' ? 'text-blue-800' : ''}`}>
-              <Link to="/github_pages/dokumentation">Dokumentation</Link>
+            <li className="hover:text-blue-600">
+              <a href="https://drive.google.com/drive/folders/1na1ol2Jgd27hg4GF-kHGtYgWbFFV1kCJ?usp=drive_link">Dokumentation</a>
             </li>
-            <li className={`hover:text-blue-600 ${location.pathname === '/github_pages/kontakter' ? 'text-blue-800' : ''}`}>
-              <Link to="/github_pages/kontakter">Kontakter</Link>
+            <li className="hover:text-blue-600">
+              <a href="https://docs.google.com/document/d/1W_RQPUg3LS8mofVsxWdctcOqN9brnc7by6rGgHn6yYY/edit?usp=sharing">Kontakter</a>
             </li>
           </ul>
         </div>
