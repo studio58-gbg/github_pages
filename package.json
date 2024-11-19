@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --cname poc.studio58.se"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.7",
