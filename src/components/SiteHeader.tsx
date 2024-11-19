@@ -12,13 +12,13 @@ const SiteHeader = () => {
   return (
     <div className="bg-gray-100 py-3">
       <div className="mx-auto py-4 gap-8 w-2/3 flex justify-between items-center">
-        <div className="text-3xl font-bold leading-none tracking-tight"><Link to="/github_pages/">Studio 58</Link></div>
+        <div className="text-3xl font-bold leading-none tracking-tight"><Link to="/">Studio 58</Link></div>
 
         {/* Desktop Navigation */}
         <div className="hidden sm:block">
           <ul className="flex gap-4 uppercase font-semibold">
-            <li className={`hover:text-blue-600 ${location.pathname === '/github_pages/' ? 'text-blue-800' : ''}`}>
-              <Link to="/github_pages/">Start</Link>
+            <li className={`hover:text-blue-600 ${location.pathname === '/' ? 'text-blue-800' : ''}`}>
+              <Link to="/">Start</Link>
             </li>
             <li className="hover:text-blue-600">
               <a href="https://portal.nabo.se/kundportal/login">Nabo Portalen</a>
@@ -71,16 +71,16 @@ const SiteHeader = () => {
           </div>
           <ul className="space-y-1 font-medium text-center uppercase">
             <li className={`hover:text-blue-600 ${location.pathname === '/' ? 'text-blue-800' : ''}`}>
-              <Link to="/github_pages/" onClick={toggleSidebar}>Start</Link>
+              <Link to="/" onClick={toggleSidebar}>Start</Link>
             </li>
             <li className="hover:text-blue-600">
               <a href="https://portal.nabo.se/kundportal/login">Nabo Portalen</a>
             </li>
             <li className={`hover:text-blue-600 ${location.pathname === '/dokumentation' ? 'text-blue-800' : ''}`}>
-              <Link to="/github_pages/dokumentation" onClick={toggleSidebar}>Dokumentation</Link>
+              <Link to="/dokumentation" onClick={toggleSidebar}>Dokumentation</Link>
             </li>
             <li className={`hover:text-blue-600 ${location.pathname === '/kontakter' ? 'text-blue-800' : ''}`}>
-              <Link to="/github_pages/kontakter" onClick={toggleSidebar}>Kontakter</Link>
+              <Link to="/kontakter" onClick={toggleSidebar}>Kontakter</Link>
             </li>
           </ul>
         </div>

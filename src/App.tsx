@@ -8,10 +8,10 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/github_pages/" element={<MainLayout />}>
+      <Route path="/" element={<MainLayout />}>
         <Route index element={<Start />} />
-        <Route path="/github_pages/dokumentation" element={<Docs />} />
-        <Route path="/github_pages/kontakter" element={<Contacts />} />
+        <Route path="/dokumentation" element={<Docs />} />
+        <Route path="/kontakter" element={<Contacts />} />
       </Route>
     </Routes>
   )
