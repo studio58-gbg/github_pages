@@ -32,6 +32,9 @@ const SiteHeader = () => {
             <li className="hover:text-blue-600">
               <a href="https://docs.google.com/document/d/1W_RQPUg3LS8mofVsxWdctcOqN9brnc7by6rGgHn6yYY/edit?usp=sharing">Kontakter</a>
             </li>
+            <li className="hover:text-blue-600">
+              <a href="https://drive.google.com/file/d/1IwgXZC099kB8YhtSir4bLwZO3DZvnZkx/view?usp=drive_link">Stadgar</a>
+            </li>
           </ul>
         </div>
 
